@@ -1,3 +1,4 @@
+#! node
 import { command, option, run, string, Type } from 'cmd-ts'
 import { createWriteStream } from 'fs'
 import * as readline from 'readline'
@@ -37,7 +38,7 @@ export const getAsteroidExportUrl = async (
 
 const cmd = command({
   name: 'influence-asset-export',
-  version: '1.0.0',
+  version: '1.0.4',
   args,
   handler: async (args) => {
     console.log(`Using ${args.format} as export format`)

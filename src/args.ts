@@ -43,7 +43,7 @@ export const args = {
   mode: option({
     long: 'mode',
     short: 'm',
-    description: `The mode of the export, one of [all, owners] which defaults to 'all'. If 'owners' is selected a list of ETH addresses is read from STDIN to only obtain assets that are owned by any of those addresses.`,
+    description: `The mode of the export, one of [all, owners] which defaults to 'all'. If 'owners' is selected a list of ETH addresses is read from STDIN (one address per line) to only obtain assets that are owned by any of those addresses.`,
     type: oneOf([ExportMode.ALL, ExportMode.OWNERS]),
     defaultValue: () => ExportMode.ALL,
   }),

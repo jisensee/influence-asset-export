@@ -1,6 +1,6 @@
 {
   "name": "influence-asset-export",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Export a list of influence assets owned by a provided list of addresses.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

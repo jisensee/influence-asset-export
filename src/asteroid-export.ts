@@ -21,7 +21,7 @@ const exportAllMutation = gql`
 const formatToGql = (format: ExportFormat) =>
   format === ExportFormat.CSV ? 'CSV' : 'JSON'
 
-const getExportDownloadUrl = (exportUrl: string) => `${baseUrl}/${exportUrl}`
+const getExportDownloadUrl = (exportUrl: string) => `${baseUrl}${exportUrl}`
 
 export const getAsteroidExportByOwnersUrl = async (
   format: ExportFormat,
