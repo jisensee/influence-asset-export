@@ -38,7 +38,8 @@ export const getAsteroidExportUrl = async (
 
 const cmd = command({
   name: 'influence-asset-export',
-  version: '1.0.4',
+  description: 'Export influence assets through a command line interface.',
+  version: '1.0.5',
   args,
   handler: async (args) => {
     console.log(`Using ${args.format} as export format`)
