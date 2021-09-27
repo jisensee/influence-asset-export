@@ -1,0 +1,26 @@
+{
+  "name": "influence-asset-export",
+  "version": "1.0.0",
+  "description": "Export a list of influence assets owned by a provided list of addresses.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": "dist/cli.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "jisensee",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "cmd-ts": "^0.7.0",
+    "graphql": "^15.6.0",
+    "graphql-request": "^3.5.0"
+  }
+}
